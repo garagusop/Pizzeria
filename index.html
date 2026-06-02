@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzería Don Luigi</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <h1>🍕 Pizzería Don Luigi</h1>
+    <p>Las mejores pizzas artesanales</p>
+</header>
+
+<section class="hero">
+    <h2>¡Pedido Online!</h2>
+    <p>Elige tu pizza favorita y envíanos tu pedido.</p>
+</section>
+
+<section class="menu">
+
+    <div class="pizza">
+        <h3>Muzzarella</h3>
+        <p>$8500</p>
+        <button onclick="agregar('Pizza Muzzarella - $8500')">
+            Agregar
+        </button>
+    </div>
+
+    <div class="pizza">
+        <h3>Napolitana</h3>
+        <p>$9800</p>
+        <button onclick="agregar('Pizza Napolitana - $9800')">
+            Agregar
+        </button>
+    </div>
+
+    <div class="pizza">
+        <h3>Especial</h3>
+        <p>$11500</p>
+        <button onclick="agregar('Pizza Especial - $11500')">
+            Agregar
+        </button>
+    </div>
+
+</section>
+
+<section class="pedido">
+    <h2>Tu Pedido</h2>
+
+    <ul id="listaPedido"></ul>
+
+    <input type="text" id="nombre"
+           placeholder="Tu nombre">
+
+    <input type="text" id="direccion"
+           placeholder="Dirección de entrega">
+
+    <button onclick="enviarPedido()">
+        Enviar por WhatsApp
+    </button>
+</section>
+
+<footer>
+    <p>© 2026 Pizzería Don Luigi</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
