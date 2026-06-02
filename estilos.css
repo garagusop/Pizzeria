@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#c62828;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:30px;
+}
+
+.menu{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:20px;
+}
+
+.pizza{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+button{
+    background:#c62828;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#8e0000;
+}
+
+.pedido{
+    background:white;
+    max-width:600px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+}
